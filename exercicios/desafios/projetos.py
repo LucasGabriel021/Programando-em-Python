@@ -93,9 +93,9 @@ print(variacaoPerc)
 
 if(variacaoPerc > 20):
     print("Bonificação para o time de vendas!")
-elif(variacaoPerc >= 2 and variacaoPerc <= 20):
+elif(variacaoPerc >= 2 and variacaoPerc < 20):
     print("Pequena bonificação para o time de vendas!")
-elif(variacaoPerc < 2 and variacaoPerc < -10):
+elif(variacaoPerc >= 2 and variacaoPerc < -10):
     print("Planejamento de políticas de incentivo às vendas!")
 elif(variacaoPerc < -10):
     print("Corte de Gastos!")
